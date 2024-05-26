@@ -81,7 +81,7 @@ export default function Home() {
           </button>
         )}
       </div>
-      {stocksDisplayed && (
+      {stocksDisplayed && Stock1Data && Stock2Data && (
         <div className="flex w-full items-center justify-around">
           <div>
             <p className="font-bold underline">{Stock1} Financials</p>
